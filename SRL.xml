@@ -965,9 +965,6 @@
             use CallAwaitble for task action otherwise use thise
             </summary>
         </member>
-        <member name="M:SRL.ActionManagement.MethodCall.AsynceLoader.CallAwaitable(System.Func{System.Threading.Tasks.Task},System.Action,System.Action{System.Exception})">
-            <param name="act">a function whith task output</param>
-        </member>
         <member name="F:SRL.WinUI.FormClass.EnableFadeShowForm.components">
             <summary>
             Required designer variable.
