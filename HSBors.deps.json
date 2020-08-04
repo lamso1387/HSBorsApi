@@ -36,6 +36,7 @@
           "Newtonsoft.Json": "12.0.3",
           "SRL": "1.0.0",
           "Swashbuckle.AspNetCore": "5.3.3",
+          "System.Linq.Dynamic.Core": "1.2.0",
           "EntityFramework": "6.0.0.0"
         },
         "compile": {
@@ -2594,6 +2595,11 @@
           "System.Runtime.Extensions": "4.3.0"
         }
       },
+      "System.Linq.Dynamic.Core/1.2.0": {
+        "compile": {
+          "lib/netcoreapp2.1/System.Linq.Dynamic.Core.dll": {}
+        }
+      },
       "System.Linq.Expressions/4.3.0": {
         "dependencies": {
           "System.Collections": "4.3.0",
@@ -3242,6 +3248,7 @@
           "Newtonsoft.Json": "12.0.3",
           "SRL": "1.0.0",
           "Swashbuckle.AspNetCore": "5.3.3",
+          "System.Linq.Dynamic.Core": "1.2.0",
           "EntityFramework": "6.0.0.0"
         },
         "runtime": {
@@ -3658,6 +3665,14 @@
           }
         }
       },
+      "System.Linq.Dynamic.Core/1.2.0": {
+        "runtime": {
+          "lib/netcoreapp2.1/System.Linq.Dynamic.Core.dll": {
+            "assemblyVersion": "1.2.0.0",
+            "fileVersion": "1.2.0.0"
+          }
+        }
+      },
       "System.Linq.Parallel/4.3.0": {
         "dependencies": {
           "System.Collections": "4.3.0",
@@ -4047,6 +4062,13 @@
       "sha512": "sha512-QaQAhEk18QSBPSu4VjXcznvjlg45IoXcJJNS5hcoqyyLj58g/SzQwpYXUrdzo+UtHV0grmOzFwABxhCYSTTp5Q==",
       "path": "system.diagnostics.eventlog/4.5.0",
       "hashPath": "system.diagnostics.eventlog.4.5.0.nupkg.sha512"
+    },
+    "System.Linq.Dynamic.Core/1.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-nbeI4oOTBNsS2gErl9M0FS2gYW7626DaiFGH2wyx3FS3VdRy3wPZxyFJEFgvCc0/WzySG4z3afOS4qyab51Tng==",
+      "path": "system.linq.dynamic.core/1.2.0",
+      "hashPath": "system.linq.dynamic.core.1.2.0.nupkg.sha512"
     },
     "System.Linq.Parallel/4.3.0": {
       "type": "package",
